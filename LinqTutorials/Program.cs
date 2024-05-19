@@ -6,8 +6,12 @@ namespace LinqTutorials
     {
         static void Main(string[] args)
         {
-            var t = LinqTasks.Task1();
-
+            var t = LinqTasks.Task12();
+            //Console.WriteLine(t);
+            foreach (var V in t)
+            {
+                Console.WriteLine(V);    
+            }
         }
     }
 }

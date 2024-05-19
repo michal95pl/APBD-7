@@ -1,38 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\s27643\\.nuget\\packages\\": {}
+    "C:\\Users\\micha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s27643\\Desktop\\APBD-7\\LinqTutorials\\LinqTutorials.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\Desktop\\APBD-6\\LinqCwiczenia\\LinqTutorials\\LinqTutorials.csproj",
       "projectName": "LinqTutorials",
-      "projectPath": "C:\\Users\\s27643\\Desktop\\APBD-7\\LinqTutorials\\LinqTutorials.csproj",
-      "packagesPath": "C:\\Users\\s27643\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s27643\\Desktop\\APBD-7\\LinqTutorials\\obj\\",
+      "projectPath": "C:\\Users\\micha\\Desktop\\APBD-6\\LinqCwiczenia\\LinqTutorials\\LinqTutorials.csproj",
+      "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\micha\\Desktop\\APBD-6\\LinqCwiczenia\\LinqTutorials\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s27643\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -40,16 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -61,30 +54,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.17, 5.0.17]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
